@@ -1,0 +1,69 @@
+body {
+    color: white;
+    opacity: 2;
+    background-color: turquoise;
+    margin: 0;
+
+}
+
+header {
+    background-image: url("../img/Angles.jpeg");
+    width: auto;
+    height: 120px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 15px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+/* need to move image higher and under header p */
+
+header img {
+    size: 50px;
+    z-index: 1;
+    border-radius: 50%;
+    margin-left: 15px;
+    position: relative;
+    margin-bottom: 300px;
+
+}
+
+header p {
+        margin-left: 15px;
+        z-index: 2;
+}
+
+section {
+    margin-left: 15px;
+    margin-top: 275px;
+}
+
+section p{ 
+    margin-left: 15px;
+
+}
+
+section h2 {
+    margin-left: 15px;
+   
+}
+
+section h3{
+    margin-left: 15px;
+}
+
+footer {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/Angles.jpeg");
+    width: auto;
+    margin-bottom: 15px;
+    height: 120px;
+
+}
+
